@@ -43,4 +43,9 @@ public class TeacherService implements TeacherServiceInterface{
         teacherRepository.deleteById(id);
     }
 
+    @Override
+    public void deleteAll() {
+        teacherRepository.deleteAll();
+    }
+
 }

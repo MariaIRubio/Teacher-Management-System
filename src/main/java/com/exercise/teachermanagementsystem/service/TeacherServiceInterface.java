@@ -14,4 +14,6 @@ public interface TeacherServiceInterface {
 
     public void deleteByID(Long id);
 
+    public void deleteAll();
+
 }

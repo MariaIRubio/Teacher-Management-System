@@ -52,4 +52,10 @@ public class TeacherController {
         return "redirect:/teachers/get";
     }
 
+    @GetMapping("/deleteAll")
+    public String deleteAll(){
+        teacherService.deleteAll();
+        return "redirect:/teachers/get";
+    }
+
 }
